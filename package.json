@@ -1,0 +1,53 @@
+{
+	"name": "create-svelte-template",
+	"version": "0.0.1",
+	"description": "Create Svelte Template",
+	"author": "MrAmericanMike",
+	"main": "./src/main.js",
+	"type": "module",
+	"scripts": {
+		"build": "unbuild",
+		"prepublishOnly": "pnpm run build"
+	},
+	"bin": {
+		"create-vite-lite": "./src/main.js",
+		"cvl": "./src/main.js"
+	},
+	"files": [
+		"src/main.js",
+		"package.json",
+		"template-*/**",
+		"dist",
+		"README.md"
+	],
+	"keywords": [
+		"create-svelte-template",
+		"create-svelte",
+		"create-svelte-app",
+		"create",
+		"svelte",
+		"app",
+		"template",
+		"javascript",
+		"typescript"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/MrAmericanMike/create-svelte-template#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MrAmericanMike/create-svelte-template.git"
+	},
+	"bugs": {
+		"url": "https://github.com/MrAmericanMike/create-svelte-template/issues"
+	},
+	"dependencies": {
+		"kolorist": "1.8.0",
+		"prompts": "2.4.2"
+	},
+	"devDependencies": {
+		"@types/prompts": "2.4.9",
+		"@types/node": "20.11.0",
+		"typescript": "5.3.3",
+		"unbuild": "2.0.0"
+	}
+}
