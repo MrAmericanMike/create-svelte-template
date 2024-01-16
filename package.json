@@ -10,8 +10,8 @@
 		"prepublishOnly": "pnpm run build"
 	},
 	"bin": {
-		"create-vite-lite": "./src/main.js",
-		"cvl": "./src/main.js"
+		"create-svelte-template": "./src/main.js",
+		"cst": "./src/main.js"
 	},
 	"files": [
 		"src/main.js",
