@@ -1,6 +1,6 @@
 {
 	"name": "create-svelte-template",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Create Svelte Template",
 	"author": "MrAmericanMike",
 	"main": "./src/main.js",
@@ -49,8 +49,8 @@
 	},
 	"devDependencies": {
 		"@types/prompts": "2.4.9",
-		"@types/node": "20.11.0",
-		"typescript": "5.3.3",
+		"@types/node": "20.14.2",
+		"typescript": "5.4.5",
 		"unbuild": "2.0.0"
 	}
 }
