@@ -1,6 +1,6 @@
 {
 	"name": "create-svelte-template",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "Create Svelte Template",
 	"author": "MrAmericanMike",
 	"main": "./src/main.js",
