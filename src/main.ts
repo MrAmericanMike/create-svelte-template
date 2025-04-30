@@ -19,14 +19,14 @@ const FRAMEWORKS: Framework[] = [
 				color: yellow
 			},
 			{
-				name: "template-svelte-ts",
-				display: "TypeScript",
-				color: blue
-			},
-			{
 				name: "template-svelte-js-page",
 				display: "JavaScript + Page (Routing)",
 				color: yellow
+			},
+			{
+				name: "template-svelte-ts",
+				display: "TypeScript",
+				color: blue
 			},
 			{
 				name: "template-svelte-ts-page",
