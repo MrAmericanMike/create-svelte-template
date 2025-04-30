@@ -1,21 +1,22 @@
 {
-	"name": "sveltekit-js",
+	"name": "svelte-ts-page",
 	"version": "0.0.0",
-	"description": "SvelteKit JS",
+	"description": "Svelte TS + Page",
 	"author": "",
 	"license": "",
 	"main": "./src/index.html",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.8",
-		"@sveltejs/kit": "^2.20.7",
 		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@types/page": "^1.11.9",
+		"page": "^1.11.6",
 		"svelte": "^5.28.2",
+		"typescript": "^5.8.3",
 		"vite": "^6.3.4"
 	}
 }
