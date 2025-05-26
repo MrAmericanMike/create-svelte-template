@@ -19,11 +19,7 @@ yarn create svelte-template
 ## What is this package?
 
 The idea of this package is to provide Svelte/SvelteKit like Scaffolding with slightlight different defaults. It also allows to start Svelte projects without SvelteKit on it (thing that create-svelte doesn't allow)
-
-## Why no use create-svelte?
-
-Please feel free to use [create-svelte](https://www.npmjs.com/package/create-svelte). This version is meant to provide you with an alternative scaffolding.
-
+Templates uses Svelte-Adapter-Static
 It also allows you to easily create Svelte projects (Without SvelteKit)
 
 ## Why this package exists?
@@ -40,7 +36,17 @@ Sure, open an [issue](https://github.com/MrAmericanMike/create-svelte-template/i
 
 ## What Flavors?
 
-We provide 4 options as of now. Svelte (Javascript and Typescript) and SvelteKit (Javascript and Typescript)
+We provide 6 options as of now. Svelte (Javascript and Typescript), Svelte with PageJS (Javascript and Typescript) and SvelteKit (Javascript and Typescript)
+
+## Why no use create-svelte?
+
+~~Please feel free to use [create-svelte](https://www.npmjs.com/package/create-svelte).~~
+
+(Deprecated)
+
+## Official templates
+
+The newer official package for SvelteKit projects is: [sv](https://www.npmjs.com/package/sv) (Notice that this package wont create Svelte apps without SvelteKit)
 
 ### TODO
 
