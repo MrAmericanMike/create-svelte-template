@@ -6,7 +6,7 @@ First build the new version:
 
 Then link it globally:
 
-`pnpm link --global`
+`pnpm link .`
 
 Make sure the link worked:
 
